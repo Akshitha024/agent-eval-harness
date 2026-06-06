@@ -1,0 +1,20 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.3, pytest-9.0.3, pluggy-1.6.0 -- /Users/mani/Projects/akshitha-portfolio/projects/agent-eval-harness/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mani/Projects/akshitha-portfolio/projects/agent-eval-harness
+configfile: pyproject.toml
+testpaths: tests
+plugins: cov-7.1.0
+collecting ... collected 9 items
+
+tests/test_diff.py::test_identical_trajectories_show_no_changes PASSED   [ 11%]
+tests/test_diff.py::test_changed_tool_shows_step_change PASSED           [ 22%]
+tests/test_judges.py::test_length_judge_short_is_one PASSED              [ 33%]
+tests/test_judges.py::test_length_judge_long_is_zero PASSED              [ 44%]
+tests/test_judges.py::test_diversity_judge_unique_is_one PASSED          [ 55%]
+tests/test_judges.py::test_diversity_judge_all_same_is_low PASSED        [ 66%]
+tests/test_judges.py::test_final_answer_judge PASSED                     [ 77%]
+tests/test_judges.py::test_council_returns_mean PASSED                   [ 88%]
+tests/test_runner.py::test_runner_smoke PASSED                           [100%]
+
+============================== 9 passed in 0.43s ===============================

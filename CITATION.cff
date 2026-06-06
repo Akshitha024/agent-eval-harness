@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: agent-eval-harness
+message: "Generic agent evaluation harness: trajectory replay, judge council, action-graph diffing, regression alerts."
+authors:
+  - family-names: "Lingampally"
+    given-names: "Akshitha Reddy"
+date-released: "2024-11-12"
+version: "0.3.0"
+license: "MIT"
+url: "https://github.com/Akshitha024/agent-eval-harness"
+keywords:
+  - "agent-evaluation"
+  - "trajectory-diff"
+  - "judge-council"

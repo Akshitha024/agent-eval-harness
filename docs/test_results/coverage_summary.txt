@@ -1,0 +1,24 @@
+.........                                                                [100%]
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.13.3-final-0 _______________
+
+Name                              Stmts   Miss  Cover
+-----------------------------------------------------
+src/aeh/__init__.py                   1      0   100%
+src/aeh/alerts/__init__.py            0      0   100%
+src/aeh/alerts/regression.py         13      2    85%
+src/aeh/cli/__init__.py               0      0   100%
+src/aeh/cli/main.py                  17     17     0%
+src/aeh/diff/__init__.py              0      0   100%
+src/aeh/diff/trajectory_diff.py      10      0   100%
+src/aeh/judges/__init__.py            0      0   100%
+src/aeh/judges/council.py            25      1    96%
+src/aeh/runner.py                    49      0   100%
+src/aeh/trajectory/__init__.py        0      0   100%
+src/aeh/trajectory/replay.py         12     12     0%
+src/aeh/types.py                     30      0   100%
+src/aeh/viz/__init__.py               0      0   100%
+src/aeh/viz/charts.py                67      9    87%
+-----------------------------------------------------
+TOTAL                               224     41    82%
+9 passed in 0.62s
