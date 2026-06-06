@@ -21,7 +21,7 @@ Reproduce: `make install && make bench`.
 
 ```mermaid
 flowchart LR
-  A[Baseline Trajectories] --> B[Judge council\n(length, diversity, answer_present)]
+  A[Baseline Trajectories] --> B["Judge council\n(length, diversity, answer_present)"]
   C[Current Trajectories]  --> D[Judge council]
   A & C --> E[Trajectory diff]
   D & E --> F[Regression alerts]
